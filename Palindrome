@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+int main() {
+  string a,rev="";
+  cout<<"enter a string:";
+  cin>>a;
+  int n=a.length();
+  for(int i=n-1;i>=0;i--){
+      rev=rev+a[i];
+      
+   
+  }  
+  if(rev==a){
+      cout<<"Its palindrome";
+      
+  }
+  else{
+      cout<<"Not Palindrome";
+  }
+  
+    return 0;
+}
+
+\\output
+enter a string:madam
+Its palindrome
