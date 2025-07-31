@@ -1,0 +1,22 @@
+
+#include <iostream>
+using namespace std;
+int main() {
+    string str1;
+    string str2;
+    string concat;
+    cout<<"enter your string 1:";
+    cin>>str1;
+    cout<<"string 2:";
+    cin>>str2;
+    concat=str1+" "+str2;
+    cout<<"Concatanated string:"<<concat;
+    
+
+    return 0;
+}
+
+//output
+enter your string 1:symbiosis
+string 2:pune
+Concatanated string:symbiosis pune
